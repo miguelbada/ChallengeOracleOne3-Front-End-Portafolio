@@ -1,0 +1,25 @@
+.principal {
+    
+}
+
+.sobre-mi {
+    background: #EAF2FD;
+    padding: 2rem 8rem 2rem 8rem ;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mi-caja .titulo {
+    text-align: left;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,24 @@
+.skills-hobbies {
+    background-color: #F5F5F5;
+    padding: 2rem 8rem 2rem 8rem ;
+}
+
+.skills-hobbies-lista {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.logo-skills-hobbies {
+    width: 40px;
+}
+
+.caja-skills-hobbies {
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
