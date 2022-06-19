@@ -1,0 +1,42 @@
+.experiencia {
+    padding: 2rem 9.5rem 2rem 9.5rem;
+    background: #F5F5F5;
+}
+
+.experiencia__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.experiencia__container___imagen {
+    width: 752px;
+    height: 406px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.experiencia__container___descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.experiencia__container___info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experiencia__imagen1 {
+    background-image: url('/img/encriptacion.png');
+}
+
+.experiencia__imagen2 {
+    background-image: url('/img/ahorcado.png');
+}
+
+.experiencia__imagen3 {
+    background-image: url('/img/e-commer.png');
+}

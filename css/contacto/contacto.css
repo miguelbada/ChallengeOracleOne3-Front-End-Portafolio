@@ -1,0 +1,32 @@
+.contacto {
+    background: #EAF2FD;
+    padding: 8rem 9.5rem 4rem 9.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacto__imagen {
+    width: 464px;
+    height: 593px;
+}
+
+.contacto__contactar .contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contacto__formulario {
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.titulo_contacto {
+    padding-bottom: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}

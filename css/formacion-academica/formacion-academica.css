@@ -1,0 +1,26 @@
+.formacion-academica {
+    padding: 5rem 9.5rem;
+    background: #EAF2FD;
+}
+
+.formacion-academica__contairner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacion-academica__contairner___lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-content: stretch;
+    flex-grow: 4;
+}
+
+.formacion-academica__contairner___logo {
+    width: 368px;
+    height: 286px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

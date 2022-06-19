@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/header/header.css">
     <link rel="stylesheet" href="css/body/body.css">
     <link rel="stylesheet" href="css/skills-hobbies/skills-hobbies.css">
     <link rel="stylesheet" href="css/formacion-academica/formacion-academica.css">
+    <link rel="stylesheet" href="css/contacto/contacto.css">
+    <link rel="stylesheet" href="css/pie-de-pagina/pie_de_pagina.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -34,11 +39,11 @@
                 <div class="portada-descripcion">
                     <h1 class="portada-titulo">Hola mi nombre es Miguel Enrique Bada y construyo páginas web</h1>
 
-                    <p class="portada-informacion">Soy formado en ... actualmente estoy participando del projecto Oracle One en Alura Latam</p>
+                    <p class="portada-informacion">Me estoy formando en Técnico en Programación Informática en la Universidad Nacional de Quilmes y actualmente estoy participando del projecto Oracle One en Alura Latam</p>
 
                     <ul class="portada-lista">
-                        <li class="portada-lista-item"><a class="portada-lista-referencia" href="#">Github</a></li>
-                        <li class="portada-lista-item"><a class="portada-lista-referencia" href="#">Linkedin</a></li>
+                        <li class="portada-lista-item"><a class="portada-lista-referencia" href="https://github.com/miguelbada">Github</a></li>
+                        <li class="portada-lista-item"><a class="portada-lista-referencia" href="https://www.linkedin.com/in/miguel-enrique-bada-5581a9111/">Linkedin</a></li>
                         <li class="portada-lista-item"><a class="portada-lista-referencia" href="#">Curriculum Vitae</a></li>
                     </ul>
                 </div>
@@ -50,7 +55,8 @@
             <div class="sobre-mi-caja">
                 <h1 class="titulo">Sobre mi</h1>
 
-                <p>alsdkdfjf jdksjkdfj jdksjfjds ajskdffd kjioeurqoinf jkdsajiodgoiqah</p>
+                <p>Soy estudiante de la Universidad Nacional de Quilmes, estoy en la etapa avanzada de la Tecnicatura Universitaria en Programación Informática y también estoy participando del projecto Oracle One en Alura Latam para programación Front-End.</p>
+                <p>Me apasiona la tecnología y mi mayor interés es ser parte de su desarrollo. Soy una persona responsable y con   capacidad para desarrollar nuevas habilidades, me encanta aprender nuevas tecnologías y perfeccionar las que conozco. Me gustan los retos, el trabajo en equipo y el desarrollo  eficiente  dentro de un marco de trabajo ágil.</p>
             </div>
         </section>
         <section>
@@ -72,6 +78,14 @@
                     <li class="caja-skills-hobbies">
                         <img src="img/logos/skill/java.png" alt="logo de Java" class="logo-skills-hobbies">
                         <p class="palabra-destacada">Java</p>
+                    </li>
+                    <li class="caja-skills-hobbies">
+                        <img src="img/logos/skill/mysql.png" alt="logo de MySQL" class="logo-skills-hobbies">
+                        <p class="palabra-destacada">MySQL</p>
+                    </li>
+                    <li class="caja-skills-hobbies">
+                        <img src="img/logos/skill/git.png" alt="logo de Git" class="logo-skills-hobbies">
+                        <p class="palabra-destacada">Git</p>
                     </li>
                 </ul>
             </div>
@@ -101,33 +115,93 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <h1>Formación académica</h1>
-            <ul>
-                <li>
-                    <img src="img/logos/formacion/unq.png" alt="logo de la Universidad Nacional de Quilmes">
-                    <h2>Técnico Universitario en Programación Informática</h2>
-                    <p>En curso - UNQ</p>
+        <section class="formacion-academica">
+            <h1 class="titulo">Formación académica</h1>
+            <ul class="formacion-academica__contairner">
+                <li class="formacion-academica__contairner___lista" >
+                    <div class="formacion-academica__contairner___logo">
+                        <img src="img/logos/formacion/unq.png" alt="logo de la Universidad Nacional de Quilmes">
+                    </div>
+                    <h2 class="subtitulo largo-de-parrafo">Técnico Universitario en Programación Informática</h2>
+                    <p class="parrafo">En curso - UNQ</p>
                 </li>
-                <li>
-                    <img src="img/logos/formacion/alura.png" alt="logo de Alura">
-                    <h2>Desarrollador Front-End y Java</h2>
-                    <p>En curso - Alura</p>
+                <li class="formacion-academica__contairner___lista" >
+                    <div class="formacion-academica__contairner___logo">
+                        <img src="img/logos/formacion/alura.png" alt="logo de Alura">
+                    </div>
+                    <h2 class="subtitulo largo-de-parrafo">Desarrollador Front-End y Java</h2>
+                    <p class="parrafo">En curso - Alura</p>
+                </li>
+                <li class="formacion-academica__contairner___lista" >
+                    <div class="formacion-academica__contairner___logo">
+                        <img src="img/logos/formacion/CursoRojas.jpeg" alt="logo de Curso Rojas">
+                    </div>
+                    <h2 class="subtitulo largo-de-parrafo">Mantenimiento y reparación de PC</h2>
+                    <p class="parrafo">2009 - Centro Rojas</p>
                 </li>
             </ul>
-            
         </section>
-        <section>
-            <p>Proyectos - experiencia en programación</p>
+        <section class="experiencia">
+            <h1 class="titulo">Experiencia profesional</h1>
+            <div class="experiencia__container">
+                <div class="experiencia__container___info">
+                    <div class="experiencia__container___imagen experiencia__imagen1"></div>
+                    <div class="experiencia__container___descripcion">
+                        <h2 class="subtitulo largo-de-parrafo">Encriptador de texto con HTML y JavaScript</h2>
+                        <p class="parrafo">Challenge Alura Codificador</p>
+                        <div class="experiencia__container___btn">
+                            <button class="btn btn-blanco">Repositório</button>
+                            <button class="btn btn-azul">Ver demo</button>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="experiencia__container___info">
+                    <div class="experiencia__container___descripcion">
+                        <h2 class="subtitulo largo-de-parrafo">Juego del Ahorcado creado con HTML, CSS y JavaScript</h2>
+                        <p class="parrafo">Challenge Oracle</p>
+                        <div class="experiencia__container___btn">
+                            <button class="btn btn-blanco">Repositório</button>
+                            <button class="btn btn-azul">Ver demo</button>
+                        </div>
+                    </div>
+                    <div class="experiencia__container___imagen experiencia__imagen2"></div>                   
+                </div>
+                <div class="experiencia__container___info">
+                    <div class="experiencia__container___imagen experiencia__imagen3"></div>
+                    <div class="experiencia__container___descripcion">
+                        <h2 class="subtitulo largo-de-parrafo">E-commer</h2>
+                        <p class="parrafo">Challenge Oracle</p>
+                        <div class="experiencia__container___btn">
+                            <button class="btn btn-blanco">Repositório</button>
+                            <button class="btn btn-azul">Ver demo</button>
+                        </div>
+                    </div>                              
+                </div>
+            </div>
         </section>
-        <section>
-            <p>Contacto - formulario de contacto</p>
+        <section class="contacto">
+            <div>
+                <img src="img/telefono.png" alt="un teléfono" class="contacto__imagen">
+            </div>
+            <div class="contacto__contactar">
+                <h1 class="titulo_contacto">Contacto</h1>
+                <p class="parrafo">¿Quieres contactarme?</p>
+                <p class="parrafo">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                <form class="contacto__formulario" id="my-form" action="https://formspree.io/f/xdobjnqd" method="POST">
+                    <input type="text" name="name" placeholder="Nombre">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="text" name="subject" placeholder="Asunto">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="my-form-button" class="btn btn-azul">Enviar mensaje</button>
+                    <p id="my-form-status"></p>
+                </form>
+            </div>
         </section>
-
-
     </main>
     <footer class="pie-de-pagina">
-        <p>Footer</p>
+        <p>Desarrollado por Miguel Bada</p>
+        <p>2022</p>
     </footer>
+
 </body>
 </html>
