@@ -29,22 +29,22 @@
     gap: 1rem;
 }
 
-/* .experiencia__imagen1 {
-    background: url('/img/encriptacion.png');
-} */
+.experiencia__imagen1 {
+    background: url('../../img/encriptacion.png');
+}
 
 .experiencia__imagen2 {
-    background-image: url('/img/ahorcado.png');
+    background-image: url('../../img/ahorcado.png');
 }
 
 .experiencia__imagen3 {
-    background-image: url('/img/e-commer.png');
+    background-image: url('../../img/e-commer.png');
 }
 
 .experiencia__imagen4 {
-    background-image: url('/img/convertidor.png');
+    background-image: url('../../img/convertidor.png');
 }
 
 .experiencia__imagen5 {
-    background-image: url('/img/hotelAlura.png');
+    background-image: url('../../img/hotelAlura.png');
 }
