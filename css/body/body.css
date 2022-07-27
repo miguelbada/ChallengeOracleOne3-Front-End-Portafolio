@@ -13,6 +13,10 @@
     text-align: left;
 }
 
+.sobre-mi-caja p {
+    padding-top: 1rem;
+}
+
 .titulo {
     font-weight: 700;
     font-size: 32px;
